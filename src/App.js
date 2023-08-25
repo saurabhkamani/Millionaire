@@ -1,11 +1,11 @@
-
-import './App.css';
+import React from 'react'; // Make sure to import React
+import Calling from './calling/Calling';
 
 function App() {
   return (
-  <div>
-    
-  </div>
+    <div>
+      <Calling />
+    </div>
   );
 }
 
